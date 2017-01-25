@@ -1,7 +1,8 @@
 
 
-A fork of the imagenet pytorch example. Example of finetuning an existing network for a new task, 
-in this case, the kaggle competition cat vs dogs redux.
+Example of network fine-tuning in pytorch applie to [Dogs vs. Cats Redux: Kernels Edition](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/)
+
+## Data prep work
 
 ```bash
     # unzip!
@@ -30,3 +31,6 @@ in this case, the kaggle competition cat vs dogs redux.
     echo cat*.jpg | xargs mv -t cat
     echo dog*.jpg | xargs mv -t dog
 ```
+
+
+[See also](https://github.com/pytorch/examples)
